@@ -25,23 +25,28 @@ tempfile({ext:'.png'});
 
 tempfile({path: '/my/custom/path/', ext:'.png'});
 //=> /my/custom/path/4546h192-42b1-43b2-41d9-023e6730432c.png
+
+tempfile('.png');
+//=> /var/folders/_1/tk89k8215ts0rg0kmb096nj80000gn/T/25c24272-2269-11e5-a17f-82bd40254040.png
 ```
 
 ## API
 
 ### tempfile({options})
 
-#### path
+#### options.path
 
 Type: `string`
 
 Optionally supply the root path.
 
-#### ext
+#### options.ext
 
 Type: `string`
 
 Optionally supply an extension to append to the path.
+
+If `options` is a `string`, then it is assumed to be the extension.
 
 ## License
 
