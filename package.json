@@ -1,0 +1,42 @@
+{
+  "name": "tempfile2",
+  "description": "Get a random temp file path. much better.",
+  "homepage": "https://github.com/Kikobeats/tempfile2",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": "Kikobeats/tempfile2",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/tempfile2/issues"
+  },
+  "keywords": [
+    "tmp",
+    "temp",
+    "temporary",
+    "tempfile",
+    "file",
+    "path",
+    "random",
+    "rand"
+  ],
+  "dependencies": {
+    "mkdirp": "~0.5.1",
+    "os-tmpdir": "^1.0.0",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.0"
+  },
+  "scripts": {
+    "test": "sh test/test.sh"
+  },
+  "license": "MIT"
+}
