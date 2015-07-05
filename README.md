@@ -38,7 +38,13 @@ tempfile('.png');
 
 Type: `string`
 
-Optionally supply the root path.
+Optionally supply the root path. By default uses os temp dir.
+
+#### options.ensure
+
+Type: `string`
+
+If you provide a custom path, Optionally you can be ensure that the path exists (like mkdir -p).
 
 #### options.ext
 

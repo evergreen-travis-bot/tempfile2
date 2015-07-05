@@ -16,6 +16,6 @@ module.exports = function(params) {
   var ext = params.ext || '';
   var path = params.path || TMP_DIR;
 
-  mkdirp.sync(path, {mode: params.mode});
+  if (params.ensure) mkdirp.sync(path, {mode: params.mode});
   return nodePath.join(path, uuid.v4() + ext);
 };

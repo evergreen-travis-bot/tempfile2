@@ -24,7 +24,7 @@ describe('tempfile 2 ::', function() {
     });
 
     it('should have an option to supply an root path', function() {
-      assert(/\/tmp\/custom2\//.test(tempfile({rootpath:'/tmp/custom2/'})));
+      assert(/\/tmp\/custom2\//.test(tempfile({path:'/tmp/custom2/'})));
     });
   });
 });
