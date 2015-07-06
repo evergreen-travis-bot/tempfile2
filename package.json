@@ -2,7 +2,7 @@
   "name": "tempfile2",
   "description": "Get a random temp file path. much better.",
   "homepage": "https://github.com/Kikobeats/tempfile2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./index.js",
   "author": {
     "name": "Kiko Beats",
