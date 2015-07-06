@@ -46,6 +46,12 @@ Type: `string`
 
 If you provide a custom path, Optionally you can be ensure that the path exists (like mkdir -p).
 
+#### options.name
+
+Type: `string`
+
+Optionally supply the file name. by default uses a unique file name based in [uuid v4 algorithm](https://github.com/broofa/node-uuid#uuidv4options--buffer--offset)
+
 #### options.ext
 
 Type: `string`
