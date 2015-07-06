@@ -3,7 +3,7 @@
 var nodePath      = require('path');
 var uuid          = require('uuid');
 var mkdirp        = require('mkdirp');
-var TMP_DIR       = require('os-tmpdir');
+var TMP_DIR       = require('os-tmpdir')();
 var existsDefault = require('existential-default');
 
 module.exports = function(params) {
@@ -14,7 +14,7 @@ module.exports = function(params) {
   if (!params) params = {};
 
   var ext = existsDefault(params.ext, '');
-  var path = existsDefault(params.path, TMP_DIR());
+  var path = existsDefault(params.path, TMP_DIR);
   var ensure = existsDefault(params.ensure, true);
   var filename = existsDefault(params.name, uuid.v4());
 
