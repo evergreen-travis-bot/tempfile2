@@ -12,10 +12,12 @@ module.exports = function(params) {
   if (typeof params === 'string') return nodePath.join(TMP_DIR, uuid.v4() + (params || ''));
 
   if (!params) params = {};
+
   var ext = existsDefault(params.ext, '');
   var path = existsDefault(params.path, TMP_DIR);
   var ensure = existsDefault(params.ensure, true);
+  var filename = existsDefault(params.name, uuid.v4());
 
   if (ensure) mkdirp.sync(path, {mode: params.mode});
-  return nodePath.join(path, uuid.v4() + ext);
+  return nodePath.join(path, filename + ext);
 };
