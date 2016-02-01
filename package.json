@@ -26,8 +26,8 @@
   "dependencies": {
     "existential-default": "~1.1.0",
     "mkdirp": "~0.5.1",
-    "os-tmpdir": "^1.0.0",
-    "uuid": "^2.0.1"
+    "os-tmpdir": "~1.0.0",
+    "uuid": "~2.0.1"
   },
   "devDependencies": {
     "mocha": "*"
