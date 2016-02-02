@@ -30,14 +30,14 @@
     "uuid": "~2.0.1"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "latest",
+    "should": "latest"
   },
   "engines": {
-    "node": ">= 0.10.0",
-    "npm": ">= 1.4.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "sh test/test.sh"
+    "test": "mocha"
   },
   "license": "MIT"
 }
