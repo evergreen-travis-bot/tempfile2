@@ -60,6 +60,10 @@ Optionally supply an extension to append to the path.
 
 If `options` is a `string`, then it is assumed to be the extension.
 
+## Related
+
+* [create-temp-file2](https://github.com/Kikobeats/create-temp-file2#create-temp-file2) – Creates a temporary file, returns a write stream, a path, and cleanup functions.
+
 ## License
 
 MIT © [Kiko Beats](http://www.kikobeats.com)
