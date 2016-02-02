@@ -1,3 +1,13 @@
+<a name="1.0.6"></a>
+## 1.0.6 (2016-02-02)
+
+
+* lock deps ([1f0814d](https://github.com/kikobeats/tempfile2/commit/1f0814d))
+* update dep ([d831a3c](https://github.com/kikobeats/tempfile2/commit/d831a3c))
+* Update scaffold ([5e07691](https://github.com/kikobeats/tempfile2/commit/5e07691))
+
+
+
 <a name="1.0.5"></a>
 ## 1.0.5 (2016-01-25)
 
@@ -5,6 +15,7 @@
 * documented new param ([3937645](https://github.com/kikobeats/tempfile2/commit/3937645))
 * fixed under backward compatibility ([1cbae87](https://github.com/kikobeats/tempfile2/commit/1cbae87))
 * refactor ([ff50a86](https://github.com/kikobeats/tempfile2/commit/ff50a86))
+* Release 1.0.5 ([0958cb5](https://github.com/kikobeats/tempfile2/commit/0958cb5))
 * update bumped settings ([13b7840](https://github.com/kikobeats/tempfile2/commit/13b7840))
 * update dep ([c072212](https://github.com/kikobeats/tempfile2/commit/c072212))
 
