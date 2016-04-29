@@ -1,3 +1,11 @@
+<a name="1.0.7"></a>
+## 1.0.7 (2016-04-29)
+
+* chore(package): update existential-default to version 1.2.1 ([c32f28d](https://github.com/kikobeats/tempfile2/commit/c32f28d))
+* Update README.md ([edd4c40](https://github.com/kikobeats/tempfile2/commit/edd4c40))
+
+
+
 <a name="1.0.6"></a>
 ## 1.0.6 (2016-02-02)
 
