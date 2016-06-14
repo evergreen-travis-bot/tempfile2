@@ -1,7 +1,6 @@
 'use strict'
 
 var TMP_DIR = require('os-tmpdir')()
-var mkdirp = require('mkdirp')
 var path = require('path')
 var uuid = require('uuid')
 
@@ -16,7 +15,6 @@ function DEFAULTS () {
 module.exports = function (opts) {
   // backward compatibility
   if (typeof opts === 'string') return path.join(TMP_DIR, uuid.v4() + (opts || ''))
-  opts = Object.assign(DEFAULTS(), opts)
-  mkdirp.sync(opts.path, {mode: opts.mode})
+  opts = Object.assign({}, DEFAULTS(), opts)
   return path.join(opts.path, opts.filename + opts.ext)
 }
