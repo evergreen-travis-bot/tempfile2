@@ -33,14 +33,23 @@
     "uuid": "~2.0.1"
   },
   "devDependencies": {
+    "coveralls": "latest",
+    "git-dirty": "latest",
     "mocha": "latest",
+    "nyc": "latest",
     "should": "latest"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha"
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard index.js",
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
   },
   "license": "MIT"
 }

@@ -2,6 +2,7 @@
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/tempfile2.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/tempfile2/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/tempfile2)
+[![Coverage Status](https://img.shields.io/coveralls/Kikobeats/tempfile2.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/tempfile2)
 [![Dependency status](http://img.shields.io/david/Kikobeats/tempfile2.svg?style=flat-square)](https://david-dm.org/Kikobeats/tempfile2)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/tempfile2.svg?style=flat-square)](https://david-dm.org/Kikobeats/tempfile2#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/tempfile2.svg?style=flat-square)](https://www.npmjs.org/package/tempfile2)
