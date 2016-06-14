@@ -33,19 +33,13 @@ tempfile('.png');
 
 ## API
 
-### tempfile({options})
+### tempfile([options])
 
 #### options.path
 
 Type: `string`
 
 Optionally supply the root path. By default uses os temp dir.
-
-#### options.ensure
-
-Type: `string`
-
-If you provide a custom path, Optionally you can be ensure that the path exists (like mkdir -p).
 
 #### options.name
 
