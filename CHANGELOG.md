@@ -1,3 +1,15 @@
+<a name="2.0.0"></a>
+# 2.0.0 (2016-06-14)
+
+* Adjust dependencies ([0d0deeb](https://github.com/kikobeats/tempfile2/commit/0d0deeb))
+* Drop node version support ([3166b15](https://github.com/kikobeats/tempfile2/commit/3166b15))
+* Little refactor ([7a4406b](https://github.com/kikobeats/tempfile2/commit/7a4406b))
+* Refactor and coverage ([0e74134](https://github.com/kikobeats/tempfile2/commit/0e74134))
+* Update docs ([db4faae](https://github.com/kikobeats/tempfile2/commit/db4faae))
+* chore(package): update existential-default to version 1.3.1 ([b4cc26f](https://github.com/kikobeats/tempfile2/commit/b4cc26f))
+
+
+
 <a name="1.0.7"></a>
 ## 1.0.7 (2016-04-29)
 
