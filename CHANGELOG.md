@@ -1,3 +1,10 @@
+<a name="2.0.2"></a>
+## 2.0.2 (2016-12-07)
+
+* chore(package): update dependencies ([222c250](https://github.com/kikobeats/tempfile2/commit/222c250))
+
+
+
 <a name="2.0.1"></a>
 ## 2.0.1 (2016-06-14)
 
